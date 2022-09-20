@@ -1,5 +1,10 @@
 # react-swipeable-views
 
+## WARNING: No guaranty this will work in future react versions
+# !!! </br>
+This fork get's the job done to me and my projects. It probably suits you, too. But I am not responsible for any inconvenience it may cause to you!
+Feel free to use it.
+
 > A React component for swipeable views.
 
 | Package | Version | Download | Size (kB gzipped) |
