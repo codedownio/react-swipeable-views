@@ -8,14 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/oliviertassinari/react-swipeable-views.git"
+    "url": "https://github.com/redrubyx/react-swipeable-views.git"
   },
-  "author": "Olivier Tassinari <olivier.tassinari@gmail.com> (https://github.com/oliviertassinari)",
+  "author": "Roman König <roman@rs-koenig.de> (https://github.com/redrubyx)",
   "bugs": {
-    "url": "https://github.com/oliviertassinari/react-swipeable-views/issues"
+    "url": "https://github.com/redrubyx/react-swipeable-views/issues"
   },
+  "credits": "Olivier Tassinari <olivier.tassinari@gmail.com> (https://github.com/oliviertassinari)",
   "dependencies": {
-    "@babel/runtime": "7.0.0",
+    "@babel/runtime": "^7.0.0",
     "warning": "^4.0.1"
   },
   "devDependencies": {

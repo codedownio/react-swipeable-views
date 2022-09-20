@@ -8,20 +8,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/oliviertassinari/react-swipeable-views.git"
+    "url": "https://github.com/redrubyx/react-swipeable-views.git"
   },
   "keywords": [
     "react",
     "component",
     "swipe",
-    "swipeable"
+    "swipeable",
+    "latest",
+    "react18"
   ],
-  "author": "Olivier Tassinari <olivier.tassinari@gmail.com> (https://github.com/oliviertassinari)",
+  "author": "Roman König <roman@rs-koenig.de> (https://github.com/redrubyx)",
   "bugs": {
-    "url": "https://github.com/oliviertassinari/react-swipeable-views/issues"
+    "url": "https://github.com/redrubyx/react-swipeable-views/issues"
   },
+  "credits": "Olivier Tassinari <olivier.tassinari@gmail.com> (https://github.com/oliviertassinari)",
   "dependencies": {
-    "@babel/runtime": "7.0.0",
+    "@babel/runtime": "^7.0.0",
     "prop-types": "^15.5.4",
     "react-swipeable-views-core": "^0.14.0",
     "react-swipeable-views-utils": "^0.14.0",
