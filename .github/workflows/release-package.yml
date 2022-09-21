@@ -1,6 +1,9 @@
-name: Node.js Package
+name: Build & Publish package
 
 on:
+  push:
+    branches:
+      - master
   release:
     types: [created]
 
@@ -9,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: borales/actions-yarn@^v3.0.0
+      - uses: borales/actions-yarn@v3.0.0
         with:
           cmd: install # will run `yarn install` command
       - uses: borales/actions-yarn@v3.0.0
@@ -26,12 +29,18 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v3
-      - uses: borales/actions-yarn@^v3.0.0
+      - uses: borales/actions-yarn@v3.0.0
         with:
-          cmd: install # will run `yarn install` command
+          cmd: build # will run `yarn install` command
           auth-token: ${{ secrets.GITHUB_TOKEN }}
           registry-url: https://npm.pkg.github.com/
-      - run: yarn ci
-      - run: yarn publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: ci
+      - uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: publish # will run `yarn build` command
+          auth-token: ${{ secrets.GITHUB_TOKEN }}
+          registry-url: https://npm.pkg.github.com/
+#          env:
+#           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
