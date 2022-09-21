@@ -21,12 +21,13 @@
     "release": "yarn build && yarn lerna exec yarn prepublish && lerna publish",
     "postrelease": "yarn docs:deploy"
   },
-  "author": "Olivier Tassinari <olivier.tassinari@gmail.com> (https://github.com/oliviertassinari)",
+  "author": "Roman König <roman@rs-koenig.de> (https://github.com/redrubyx)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/oliviertassinari/react-swipeable-views.git"
+    "url": "https://github.com/redrubyx/react-swipeable-views.git"
   },
+  "credits": "Olivier Tassinari <olivier.tassinari@gmail.com> (https://github.com/oliviertassinari)",
   "devDependencies": {
     "@babel/cli": "7.18.10",
     "@babel/core": "7.19.1",
