@@ -6,21 +6,17 @@ on:
       - master
   release:
     types: [created]
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: borales/actions-yarn@v3.0.0
+      - uses: actions/setup-node@v3
         with:
-          cmd: install # will run `yarn install` command
-      - uses: borales/actions-yarn@v3.0.0
-        with:
-          cmd: build # will run `yarn build` command
-      - uses: borales/actions-yarn@v3.0.0
-        with:
-          cmd: test # will run `yarn test` command
+          node-version: 12
+      - run: npm install
+      - run: npm build
+
   publish-gpr:
     needs: build
     runs-on: ubuntu-latest
@@ -29,18 +25,10 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v3
-      - uses: borales/actions-yarn@v3.0.0
+      - uses: actions/setup-node@v3
         with:
-          cmd: build # will run `yarn install` command
-          auth-token: ${{ secrets.GITHUB_TOKEN }}
+          node-version: 12
           registry-url: https://npm.pkg.github.com/
-      - uses: borales/actions-yarn@v3.0.0
-        with:
-          cmd: ci
-      - uses: borales/actions-yarn@v3.0.0
-        with:
-          cmd: publish # will run `yarn build` command
-          auth-token: ${{ secrets.GITHUB_TOKEN }}
-          registry-url: https://npm.pkg.github.com/
-#          env:
-#           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
