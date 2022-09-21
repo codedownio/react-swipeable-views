@@ -1,6 +1,6 @@
 {
   "name": "@redrubyx/react-swipeable-views-utils",
-  "version": "0.17.0",
+  "version": "0.17.1",
   "description": "react-swipeable-views utility modules",
   "main": "lib/index.js",
   "scripts": {
