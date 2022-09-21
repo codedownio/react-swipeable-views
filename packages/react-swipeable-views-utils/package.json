@@ -1,10 +1,13 @@
 {
-  "name": "react-swipeable-views-utils",
+  "name": "@redrubyx/react-swipeable-views-utils",
   "version": "0.16.1",
   "description": "react-swipeable-views utility modules",
   "main": "lib/index.js",
   "scripts": {
     "prepublish": "pkgfiles"
+  },
+  "publishConfig": {
+    "@redrubyx:registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
@@ -29,5 +32,6 @@
   "license": "MIT",
   "engines": {
     "node": ">=6.0.0"
-  }
+  },
+  "gitHead": "54a35882e4beddc6cac219e17296da71adbfcdd1"
 }

@@ -2,6 +2,9 @@
   "name": "react-swipeable-views-workspace",
   "version": "0.16.0",
   "private": true,
+  "publishConfig": {
+    "@redrubyx:registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "lint": "eslint . && echo \"eslint: no lint errors\"",
     "test": "echo \"ok\"",
