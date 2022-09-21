@@ -9,9 +9,3 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 * **release package:** adaptations for conventionalCommits support and publishing support ([34e9cd1](https://github.com/redrubyx/react-swipeable-views/commit/34e9cd1d6f7e9f575578fbb8942f8579f9a7af49))
-
-
-
-
-
-All notable changes are described on the [Releases](https://github.com/oliviertassinari/react-swipeable-views/releases) page.

@@ -1,6 +1,6 @@
 {
   "name": "@redrubyx/react-swipeable-views",
-  "version": "0.16.1",
+  "version": "0.17.0",
   "description": "A React component for swipeable views",
   "main": "lib/index.js",
   "scripts": {
@@ -21,7 +21,6 @@
     "latest",
     "react18"
   ],
-
   "author": "Roman König <roman@rs-koenig.de> (https://github.com/redrubyx)",
   "bugs": {
     "url": "https://github.com/redrubyx/react-swipeable-views/issues"
