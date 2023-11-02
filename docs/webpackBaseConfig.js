@@ -12,10 +12,6 @@ module.exports = {
         __dirname,
         '../packages/react-swipeable-views-core/src',
       ),
-      'react-swipeable-views-utils': path.resolve(
-        __dirname,
-        '../packages/react-swipeable-views-utils/src',
-      ),
       docs: __dirname,
     },
   },

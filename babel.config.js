@@ -49,7 +49,6 @@ module.exports = {
             alias: {
               pages: './pages',
               'react-swipeable-views': './packages/react-swipeable-views/src',
-              'react-swipeable-views-utils': './packages/react-swipeable-views-utils/src',
               'react-swipeable-views-core': './packages/react-swipeable-views-core/src',
               docs: './docs',
             },
@@ -67,7 +66,6 @@ module.exports = {
             alias: {
               'react-swipeable-views': './packages/react-swipeable-views/src',
               'react-swipeable-views-core': './packages/react-swipeable-views-core/src',
-              'react-swipeable-views-utils': './packages/react-swipeable-views-utils/src',
               docs: './docs',
               pages: './pages',
             },
@@ -84,7 +82,6 @@ module.exports = {
             alias: {
               'react-swipeable-views': './packages/react-swipeable-views/src',
               'react-swipeable-views-core': './packages/react-swipeable-views-core/src',
-              'react-swipeable-views-utils': './packages/react-swipeable-views-utils/src',
               docs: './docs',
               pages: './pages',
             },
@@ -151,7 +148,6 @@ module.exports = {
             alias: {
               'react-swipeable-views': './packages/react-swipeable-views/src',
               'react-swipeable-views-core': './packages/react-swipeable-views-core/src',
-              'react-swipeable-views-utils': './packages/react-swipeable-views-utils/src',
               docs: './docs',
               pages: './pages',
             },

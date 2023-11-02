@@ -29,7 +29,6 @@
   "dependencies": {
     "@babel/runtime": "^7.0.0",
     "@codedown/react-swipeable-views-core": "0.18.0",
-    "@codedown/react-swipeable-views-utils": "0.18.0",
     "prop-types": "^15.5.4",
     "warning": "^4.0.1"
   },

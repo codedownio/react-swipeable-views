@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.19.0
+* Remove react-swipeable-views-utils as we don't care about anything in it, and it depends on the dead react-event-listener project.
+* Switch from yarn.lock to package-lock.json
+
+## 0.18.0
+* Built @codedown version
+
 ## [0.17.1](https://github.com/redrubyx/react-swipeable-views/compare/v0.17.0...v0.17.1) (2022-09-21)
 
 

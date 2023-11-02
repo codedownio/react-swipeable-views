@@ -5896,18 +5896,6 @@ react-swipeable-views-core@^0.13.0:
     "@babel/runtime" "7.0.0"
     warning "^4.0.1"
 
-react-swipeable-views-utils@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/react-swipeable-views-utils/-/react-swipeable-views-utils-0.13.0.tgz#0ea17aa67f88a69d534c79d591f8d82ef98346a4"
-  integrity sha512-1I4BhDqA6qkRdW0nexnudh/QdvVAVy0a7M5OyU2TrjaTovg6ufBouzqfqjZfUZUxVdOftTkPtisHmcqqZ+b1TA==
-  dependencies:
-    "@babel/runtime" "7.0.0"
-    fbjs "^0.8.4"
-    keycode "^2.1.7"
-    prop-types "^15.6.0"
-    react-event-listener "^0.6.0"
-    react-swipeable-views-core "^0.13.0"
-
 react-test-renderer@^16.5.0:
   version "16.6.0"
   resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-16.6.0.tgz#fe490096bed55c3f4e92c023da3b89f9d03fceb3"
