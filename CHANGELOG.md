@@ -3,6 +3,9 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.20.0
+* Fix import of @codedown/react-swipeable-views-core
+
 ## 0.19.0
 * Remove react-swipeable-views-utils as we don't care about anything in it, and it depends on the dead react-event-listener project.
 * Switch from yarn.lock to package-lock.json
