@@ -1,7 +1,6 @@
 {
   "name": "react-swipeable-views-workspace",
-  "version": "0.16.0",
-  "private": true,
+  "version": "0.18.0",
   "publishConfig": {
     "@redrubyx:registry": "https://npm.pkg.github.com"
   },

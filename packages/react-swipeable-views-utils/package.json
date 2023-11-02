@@ -1,6 +1,6 @@
 {
-  "name": "@codedownio/react-swipeable-views-utils",
-  "version": "0.17.1",
+  "name": "@codedown/react-swipeable-views-utils",
+  "version": "0.18.0",
   "description": "react-swipeable-views utility modules",
   "main": "lib/index.js",
   "scripts": {

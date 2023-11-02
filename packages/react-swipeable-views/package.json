@@ -1,6 +1,6 @@
 {
-  "name": "@redrubyx/react-swipeable-views",
-  "version": "0.17.1",
+  "name": "@codedown/react-swipeable-views",
+  "version": "0.18.0",
   "description": "A React component for swipeable views",
   "main": "lib/index.js",
   "scripts": {
@@ -28,8 +28,8 @@
   "credits": "Olivier Tassinari <olivier.tassinari@gmail.com> (https://github.com/oliviertassinari)",
   "dependencies": {
     "@babel/runtime": "^7.0.0",
-    "@codedownio/react-swipeable-views-core": "0.17.1",
-    "@codedownio/react-swipeable-views-utils": "0.17.1",
+    "@codedown/react-swipeable-views-core": "0.18.0",
+    "@codedown/react-swipeable-views-utils": "0.18.0",
     "prop-types": "^15.5.4",
     "warning": "^4.0.1"
   },
